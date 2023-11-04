@@ -1,0 +1,17 @@
+#S13
+memo hook - 
+useCallBack - 
+useMemo hook -
+Million.js
+
+#S14
+class base -
+error handling -
+
+#S15
+http request connect to database -
+isloading -
+
+#S16
+custom hooks -
+reusable hooks -
