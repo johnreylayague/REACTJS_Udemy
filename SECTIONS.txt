@@ -15,3 +15,28 @@ isloading -
 #S16
 custom hooks -
 reusable hooks -
+
+#S17 
+form submititon -
+The default behavior of an HTML form submission is to reload the page, which is the standard behavior defined by the HTML specification. 
+When you have an HTML form and submit it without any specific handling or prevention of the default action, 
+the browser's default behavior is to send a request to the server and reload the page with the response received from that request.
+useRef -
+its not recommened to directly manipulate the dom , you should instead leave it to react to update the dom
+like setting the value to ""
+forms -
+other way to deal with forms
+https://react.dev/reference/react-dom/components/form#noun-labs-1201738-(2)
+
+#S18
+-IMPORTANT NOTE - 
+wla nako masabtan, e review ang code
+async - 
+export default [asnyc] function is not allowed in react 
+if you update the state, it wil rerender the current component
+formatting numbers -
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
+useReducer -
+<CartContext.Provider> -
+GITHUB LINK -
+https://github.com/academind/react-complete-guide-course-resources/tree/main
